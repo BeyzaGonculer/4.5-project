@@ -6,7 +6,7 @@ spring:
       server:
         git:
           uri: https://github.com/BeyzaGonculer/4.5-project
-           default-label:main
+          default-label: main
           search-paths: 
             - configurations/
             - configurations/{application}
