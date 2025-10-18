@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: configurations
+  cloud:
+    config:
+      server:
+        git:
+          uri: 
+          default-label: main
+          search-paths: 
+            - configurations/
+server:
+  port: 8787
