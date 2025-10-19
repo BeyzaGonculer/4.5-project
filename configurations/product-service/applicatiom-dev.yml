@@ -1,6 +1,3 @@
-datasource:
-  url: localhost:5433
-
 eureka:
   client:
     service-url:
