@@ -14,6 +14,32 @@ http://localhost:8080/api/v1/products
 curl -X GET http://localhost:8080/api/v1/products
 ```
 
+### Response (ProductListResponse)
+
+```json
+{
+  "products": [
+    {
+      "id": "123e4567-e89b-12d3-a456-426614174000",
+      "name": "iPhone 15",
+      "description": "Apple iPhone 15 128GB",
+      "price": 999.99,
+      "currency": "USD",
+      "currencySymbol": "$",
+      "stock": 50,
+      "formattedPrice": "$999.99",
+      "available": true,
+      "outOfStock": false,
+      "createdAt": "2024-01-15T10:30:00",
+      "updatedAt": "2024-01-15T10:30:00"
+    }
+  ],
+  "totalCount": 1,
+  "availableCount": 1,
+  "outOfStockCount": 0
+}
+```
+
 ## 2. ID'ye Göre Ürün Getir
 
 ```bash
